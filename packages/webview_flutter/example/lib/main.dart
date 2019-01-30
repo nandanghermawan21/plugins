@@ -24,7 +24,7 @@ class WebViewExample extends StatelessWidget {
         ],
       ),
       body: WebView(
-        initialUrl: 'https://flutter.io',
+        initialUrl: 'http://23.101.23.222/InovatrackMap/mapview',
         javascriptMode: JavascriptMode.unrestricted,
         onWebViewCreated: (WebViewController webViewController) {
           _controller.complete(webViewController);
